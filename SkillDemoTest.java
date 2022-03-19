@@ -2,8 +2,8 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 public class SkillDemoTest {
-    public void subtraction1() {
+    public void addition() {
         @Test
-        assertEquals(3, SkillDemo.subtract(6,2));
+        assertEquals(3,SkillDemo.add(5,2));
     }
 }
